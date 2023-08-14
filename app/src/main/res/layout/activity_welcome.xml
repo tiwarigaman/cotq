@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".welcome_activity">
+
+    <ImageView
+        android:id="@+id/btn_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:layout_gravity="center"
+        android:transitionName="logo_image"
+        android:src="@drawable/brain_pic_for_cotq"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:id="@+id/btn_cotq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome,\nto our Quizz app"
+        android:transitionName="logo_text"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textColor="#FF9800"
+        android:textStyle="bold"
+        android:textColorHighlight="#FF9800"
+        />
+
+
+
+</LinearLayout>

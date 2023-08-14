@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".DetailsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="200dp"
+            android:id="@+id/btn_profile_clicking"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/profile" />
+
+        <EditText
+            android:id="@+id/btn_setup_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:hint="@string/username"
+            android:inputType="textPersonName"
+            android:textColorHint="#616161"
+            />
+        <EditText
+            android:id="@+id/btn_setup_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:inputType="textPersonName"
+            android:layout_marginEnd="30dp"
+            android:hint="@string/name"
+            android:textColorHint="#616161"
+            android:ems="@integer/material_motion_duration_long_2"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/shown_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#616161"
+            android:ems="@integer/material_motion_duration_long_2"
+            android:autofillHints="" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:text="@string/save"
+            android:backgroundTint="#953232"
+            />
+        <ImageView
+            android:id="@+id/btn_image2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/imentor_logo"
+            android:transitionName="logo_image"
+            android:contentDescription="@string/todo" />
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "757804439539",
+    "project_id": "cotq-a68a1",
+    "storage_bucket": "cotq-a68a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757804439539:android:ce3a010a28716219076486",
+        "android_client_info": {
+          "package_name": "com.example.myapplication54656494458548"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757804439539-sv4qt1p8ial9fodl0um25jcb99t1efbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADbR2CUHGx-1pnCG1mgWQfB9aJmVo3vhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757804439539-sv4qt1p8ial9fodl0um25jcb99t1efbp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

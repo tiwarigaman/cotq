@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_Community"
+        android:icon="@drawable/home_bg"
+        android:title="@string/community" />
+
+    <item
+        android:id="@+id/navigation_Levels"
+        android:icon="@drawable/levels"
+        android:title="@string/levels" />
+    <item
+        android:id="@+id/btn_post"
+        android:icon="@drawable/post_bg"
+        android:title="@string/post"/>
+
+    <item
+        android:id="@+id/navigation_personInfo"
+        android:icon="@drawable/account_bg"
+        android:title="@string/details" />
+
+</menu>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    tools:context=".SignupActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#FDFDFD"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="492dp"
+            android:backgroundTint="#FBFAFA"
+            android:layout_gravity="fill"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="Sign Up"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    tools:ignore="HardcodedText" />
+
+
+
+                <EditText
+                    android:id="@+id/btn_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="40dp"
+                    android:ems="20"
+                    android:textSize="18sp"
+                    android:drawableStart="@drawable/gmailreal"
+                    android:hint=" Email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    tools:ignore="HardcodedText"
+                    android:autofillHints="" />
+
+                <EditText
+                    android:id="@+id/btn_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="40dp"
+                    android:autofillHints=""
+                    android:drawableStart="@drawable/securityreal"
+                    android:ems="20"
+                    android:hint=" Password"
+                    android:inputType="textPassword"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="18sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/btn_passwordconfirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="40dp"
+                    android:ems="20"
+                    android:hint=" Confirm Password"
+                    android:drawableStart="@drawable/securityreal"
+                    android:textSize="18sp"
+                    android:inputType="textPassword"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    tools:ignore="HardcodedText"
+                    android:autofillHints="" />
+
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:textColor="#953232"
+                    android:buttonTint="#953232"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="40dp"
+                    android:onClick="onCheck"
+                    android:text="I've read term and condition."
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,SmallSp,UsingOnClickInXml" />
+
+                <Button
+                    android:id="@+id/btn_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="40dp"
+                    android:backgroundTint="#953232"
+                    android:text="SignUp"
+                    tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="120dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:layout_marginEnd="0dp"
+                        android:text="Already registered"
+                        android:textColor="#402B2B"
+                        tools:ignore="HardcodedText" />
+
+                    <Button
+                        android:id="@+id/btn_signin"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="left"
+                        android:text="sign in?"
+                        android:textColor="#0026FF"
+                        android:textSize="11sp"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:text="©Created by iMentor Team"
+                    android:textColor="#38393A"
+                    android:textSize="10sp"
+                    tools:ignore="HardcodedText,SmallSp" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".aboutFragment2"
+    tools:ignore="ScrollViewCount">
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="1dp"
+        android:background="#B6B6B6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/about_username"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/username"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/carbon_black"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="0.125dp"
+        android:background="#B6B6B6"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/btn_profile_click233"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/profile" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/about_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/carbon_black"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/about_Col_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/college"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/carbon_black"
+                android:textStyle="italic"
+                />
+            <TextView
+                android:id="@+id/about_total_score"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Score"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/carbon_black"
+                android:textStyle="normal"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#B6B6B6"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/edit_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#DADADA"
+            android:layout_marginEnd="10dp"
+            android:linksClickable="true"
+            android:clickable="true"
+            android:contextClickable="true"
+            android:longClickable="false"
+            android:layout_weight="1"
+            android:text="@string/edit_profile2"
+            android:textColor="@color/carbon_black"
+            android:focusable="true" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#B6B6B6"/>
+        <Button
+            android:id="@+id/btn_share_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#DADADA"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:text="@string/share_profile"
+            android:textColor="@color/carbon_black"
+            />
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#B6B6B6"/>
+
+
+
+
+
+
+
+</LinearLayout>
